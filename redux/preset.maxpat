@@ -4220,7 +4220,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 71.0, 1261.0, 663.0 ],
+						"rect" : [ -99.0, 476.0, 1261.0, 663.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4239,6 +4239,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -6400,10 +6401,10 @@
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 608.0, 71.0, 32.5, 21.0 ],
-					"text" : "t i i"
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 608.0, 71.0, 23.0, 21.0 ],
+					"text" : "t i"
 				}
 
 			}
@@ -6432,7 +6433,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 476.0, 185.0, 109.0, 21.0 ],
+					"patching_rect" : [ 476.0, 193.0, 109.0, 21.0 ],
 					"text" : "prepend append"
 				}
 
@@ -7951,7 +7952,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 485.5, 213.0, 461.0, 213.0, 461.0, 73.0, 224.5, 73.0 ],
+					"midpoints" : [ 485.5, 242.0, 461.0, 242.0, 461.0, 73.0, 224.5, 73.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -8664,20 +8665,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-82" : [ "preset-", "preset-", 0 ],
-			"obj-131" : [ "allrev", "all reverse", 0 ],
-			"obj-76" : [ "preset+", "preset+", 0 ],
 			"obj-19" : [ "live.tab", "live.tab", 0 ],
 			"obj-86" : [ "preset<", "preset<", 0 ],
+			"obj-85" : [ "preset>", "preset>", 0 ],
+			"obj-131" : [ "allrev", "all reverse", 0 ],
+			"obj-82" : [ "preset-", "preset-", 0 ],
 			"obj-55" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-127" : [ "alloct+", "all octave +", 0 ],
-			"obj-124" : [ "alloct-", "all octave -", 0 ],
-			"obj-85" : [ "preset>", "preset>", 0 ]
+			"obj-76" : [ "preset+", "preset+", 0 ],
+			"obj-124" : [ "alloct-", "all octave -", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "sample-forward.png",
+				"bootpath" : "/Users/Home/monome apps/mix/redux",
+				"patcherrelativepath" : ".",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pattern.maxpat",
-				"bootpath" : "/Users/Home/Documents/Max/Max for Live Devices/redux Project/patchers",
+				"bootpath" : "/Users/Home/monome apps/mix/redux",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
