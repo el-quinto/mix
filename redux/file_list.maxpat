@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 597.0, 109.0, 645.0, 672.0 ],
+		"rect" : [ 20.0, 70.0, 645.0, 672.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -596,8 +596,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 385.0, 143.0, 17.0 ],
-					"text" : "sprintf %s looper 1000. looper%s"
+					"patching_rect" : [ 456.0, 385.0, 130.0, 17.0 ],
+					"text" : "sprintf %s rec 1000. input_%s"
 				}
 
 			}
@@ -610,8 +610,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 601.0, 570.0, 15.0 ],
-					"text" : "clear, append looper1, append looper2, append looper3, append looper4, append looper5, append looper6, append looper7, append looper8"
+					"patching_rect" : [ 20.0, 601.0, 566.0, 15.0 ],
+					"text" : "clear, append input_1, append input_2, append input_3, append input_4, append input_5, append input_6, append input_7, append input_8"
 				}
 
 			}
@@ -45096,7 +45096,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "file.abs.maxpat",
-				"bootpath" : "/Users/Home/Documents/Max/Max for Live Devices/redux Project/patchers",
+				"bootpath" : "/Users/Home/monome apps/mix/redux",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
