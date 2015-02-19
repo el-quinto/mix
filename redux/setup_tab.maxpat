@@ -4695,7 +4695,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 70.0, 468.0, 351.0 ],
+						"rect" : [ 25.0, 70.0, 571.0, 374.0 ],
 						"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -4720,6 +4720,24 @@
 									"fontname" : "Helvetica Neue",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
+									"id" : "obj-11",
+									"linecount" : 7,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 192.0, 174.0, 181.0, 104.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 323.0, 551.0, 34.0 ],
+									"text" : "enable caps-lock and click the grid to trigger samples with the mouse. u can click 1-6 at the very top for group stops / click P1-P4's progress brar to start pattern recorders / double click P1-P4 to clear."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-16",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -4727,7 +4745,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 177.0, 159.0, 181.0, 34.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 313.0, 316.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 303.0, 316.0, 20.0 ],
 									"text" : "option click a row's speed setting to set speed at 1.0"
 								}
 
@@ -4745,7 +4763,7 @@
 									"patching_rect" : [ 162.0, 144.0, 181.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 10.0, 273.0, 292.0, 34.0 ],
+									"presentation_rect" : [ 10.0, 268.0, 292.0, 34.0 ],
 									"text" : "option click a row's gain or pan slider to return to default value"
 								}
 
@@ -7996,7 +8014,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 445.5, 222.634888, 65.0, 36.634888 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -8.773071, 196.381195, 420.819214, 228.23761 ],
+					"presentation_rect" : [ -8.773071, 196.381195, 420.819214, 229.0 ],
 					"rounded" : 0
 				}
 
@@ -8751,23 +8769,23 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-187" : [ "master_macro", "macros", 0 ],
-			"obj-168" : [ "oschost", "oschost", 0 ],
-			"obj-79" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-163" : [ "monome64", "live.text", 0 ],
-			"obj-160" : [ "OSC-sport", "OSC-sport", 0 ],
-			"obj-68" : [ "number", "number", 0 ],
+			"obj-56::obj-88" : [ "dark", "live.text", 0 ],
 			"obj-78" : [ "umenu", "umenu", 0 ],
 			"obj-34" : [ "live.text", "live.text", 0 ],
+			"obj-160" : [ "OSC-sport", "OSC-sport", 0 ],
 			"obj-155" : [ "OSC-rport", "OSC-rport", 0 ],
+			"obj-187" : [ "master_macro", "macros", 0 ],
+			"obj-68" : [ "number", "number", 0 ],
+			"obj-163" : [ "monome64", "live.text", 0 ],
 			"obj-48" : [ "device-focus", "device focus", 0 ],
-			"obj-56::obj-88" : [ "dark", "live.text", 0 ]
+			"obj-79" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-168" : [ "oschost", "oschost", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "serialosc2.maxpat",
-				"bootpath" : "/Users/Home/Documents/Max/Max for Live Devices/redux Project/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/patches",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

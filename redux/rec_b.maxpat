@@ -30,6 +30,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 523.0, 76.0, 63.0, 18.0 ],
+					"text" : "r [rec]bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-61",
@@ -1633,13 +1647,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-22",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 670.75, 673.0, 50.0, 35.0 ],
-					"text" : ";\r9load write"
+					"patching_rect" : [ 670.75, 673.0, 50.0, 45.0 ],
+					"text" : ";\r2load replace $1"
 				}
 
 			}
@@ -1710,7 +1724,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 571.75, 632.0, 50.0, 35.0 ],
-					"text" : ";\r9load write"
+					"text" : ";\r2load write $1"
 				}
 
 			}
@@ -2176,18 +2190,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-13",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 551.0, 58.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-20",
@@ -2245,9 +2247,9 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bordercolor" : [ 0.701961, 0.701961, 0.701961, 0.7 ],
-					"buffername" : "1file",
-					"grid" : 500052.0,
+					"bordercolor" : [ 0.098039, 0.913725, 1.0, 0.3 ],
+					"buffername" : "2file",
+					"grid" : 0.125,
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 0.0 ],
 					"id" : "obj-3",
 					"labelbgcolor" : [ 0.745098, 0.537255, 1.0, 1.0 ],
@@ -2264,10 +2266,11 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"setmode" : 1,
+					"setunit" : 2,
 					"snapto" : 2,
 					"varname" : "sampler",
 					"vticks" : 0,
-					"waveformcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
+					"waveformcolor" : [ 0.098039, 0.913725, 1.0, 1.0 ]
 				}
 
 			}
@@ -2512,15 +2515,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -3367,6 +3361,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-82", 0 ]
 				}
 
 			}
