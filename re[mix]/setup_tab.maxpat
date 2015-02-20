@@ -342,8 +342,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 180.0, 358.0, 17.0 ],
-									"text" : "script sendbox serialosc replace serialosc-zeroconf.maxpat @args /mlr"
+									"patching_rect" : [ 54.0, 180.0, 378.0, 17.0 ],
+									"text" : "script sendbox serialosc replace serialosc-zeroconf.maxpat @args /re:[mix]"
 								}
 
 							}
@@ -356,8 +356,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 72.0, 150.0, 317.0, 17.0 ],
-									"text" : "script sendbox serialosc replace serialosc2.maxpat @args /mlr"
+									"patching_rect" : [ 72.0, 150.0, 337.0, 17.0 ],
+									"text" : "script sendbox serialosc replace serialosc2.maxpat @args /re:[mix]"
 								}
 
 							}
@@ -5434,8 +5434,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 558.0, 309.0, 144.0, 19.0 ],
-									"text" : "sprintf /mlr/key/%s/%s %s"
+									"patching_rect" : [ 558.0, 309.0, 147.0, 19.0 ],
+									"text" : "sprintf /grid/key/%s/%s %s"
 								}
 
 							}
@@ -5462,8 +5462,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 234.5, 211.0, 54.0, 19.0 ],
-									"text" : "route mlr"
+									"patching_rect" : [ 234.5, 211.0, 58.0, 19.0 ],
+									"text" : "route grid"
 								}
 
 							}
@@ -5545,8 +5545,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 252.0, 477.0, 117.0, 19.0 ],
-									"text" : "prepend /mlr/grid/key"
+									"patching_rect" : [ 252.0, 477.0, 137.0, 19.0 ],
+									"text" : "prepend /re:[mix]/grid/key"
 								}
 
 							}
@@ -6535,8 +6535,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.5, 28.0, 137.0, 18.0 ],
-					"text" : "/mlr/grid/led/intensity $1"
+					"patching_rect" : [ 318.5, 28.0, 160.0, 18.0 ],
+					"text" : "/re:[mix]/grid/led/intensity $1"
 				}
 
 			}
@@ -6663,8 +6663,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 201.0, 131.0, 20.0 ],
-					"text" : "s [redux]sosc-deviceid"
+					"patching_rect" : [ 220.0, 201.0, 140.0, 20.0 ],
+					"text" : "s [re:[mix]]sosc-deviceid"
 				}
 
 			}
@@ -6706,8 +6706,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.282715, 28.0, 129.0, 20.0 ],
-					"text" : "r [redux]sosc-deviceid"
+					"patching_rect" : [ 199.282715, 28.0, 138.0, 20.0 ],
+					"text" : "r [re:[mix]]sosc-deviceid"
 				}
 
 			}
@@ -6720,8 +6720,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 211.0, 111.65918, 113.0, 19.0 ],
-					"text" : "s [redux]set-deviceid"
+					"patching_rect" : [ 245.0, 111.65918, 121.0, 19.0 ],
+					"text" : "s [re:[mix]]set-deviceid"
 				}
 
 			}
@@ -6735,8 +6735,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.0, 92.0, 111.0, 19.0 ],
-					"text" : "r [redux]set-deviceid"
+					"patching_rect" : [ 337.0, 92.0, 119.0, 19.0 ],
+					"text" : "r [re:[mix]]set-deviceid"
 				}
 
 			}
@@ -7933,7 +7933,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/mlr" ],
+					"args" : [ "/re:[mix]" ],
 					"id" : "obj-56",
 					"maxclass" : "bpatcher",
 					"name" : "serialosc2.maxpat",
@@ -8770,16 +8770,16 @@
  ],
 		"parameters" : 		{
 			"obj-56::obj-88" : [ "dark", "live.text", 0 ],
+			"obj-168" : [ "oschost", "oschost", 0 ],
+			"obj-163" : [ "monome64", "live.text", 0 ],
+			"obj-155" : [ "OSC-rport", "OSC-rport", 0 ],
+			"obj-68" : [ "number", "number", 0 ],
+			"obj-187" : [ "master_macro", "macros", 0 ],
+			"obj-160" : [ "OSC-sport", "OSC-sport", 0 ],
+			"obj-79" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-78" : [ "umenu", "umenu", 0 ],
 			"obj-34" : [ "live.text", "live.text", 0 ],
-			"obj-160" : [ "OSC-sport", "OSC-sport", 0 ],
-			"obj-155" : [ "OSC-rport", "OSC-rport", 0 ],
-			"obj-187" : [ "master_macro", "macros", 0 ],
-			"obj-68" : [ "number", "number", 0 ],
-			"obj-163" : [ "monome64", "live.text", 0 ],
-			"obj-48" : [ "device-focus", "device focus", 0 ],
-			"obj-79" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-168" : [ "oschost", "oschost", 0 ]
+			"obj-48" : [ "device-focus", "device focus", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
