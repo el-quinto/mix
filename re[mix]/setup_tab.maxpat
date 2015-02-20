@@ -342,8 +342,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 180.0, 378.0, 17.0 ],
-									"text" : "script sendbox serialosc replace serialosc-zeroconf.maxpat @args /re:[mix]"
+									"patching_rect" : [ 54.0, 180.0, 369.0, 17.0 ],
+									"text" : "script sendbox serialosc replace serialosc-zeroconf.maxpat @args /remix"
 								}
 
 							}
@@ -356,8 +356,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 72.0, 150.0, 337.0, 17.0 ],
-									"text" : "script sendbox serialosc replace serialosc2.maxpat @args /re:[mix]"
+									"patching_rect" : [ 72.0, 150.0, 329.0, 17.0 ],
+									"text" : "script sendbox serialosc replace serialosc2.maxpat @args /remix"
 								}
 
 							}
@@ -944,7 +944,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 635.0, 439.0, 330.0, 521.0 ],
+										"rect" : [ 309.0, 432.0, 330.0, 521.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5545,8 +5545,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 252.0, 477.0, 137.0, 19.0 ],
-									"text" : "prepend /re:[mix]/grid/key"
+									"patching_rect" : [ 252.0, 477.0, 128.0, 19.0 ],
+									"text" : "prepend /remix/grid/key"
 								}
 
 							}
@@ -6535,8 +6535,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.5, 28.0, 160.0, 18.0 ],
-					"text" : "/re:[mix]/grid/led/intensity $1"
+					"patching_rect" : [ 318.5, 28.0, 150.0, 18.0 ],
+					"text" : "/remix/grid/led/intensity $1"
 				}
 
 			}
@@ -6663,8 +6663,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 201.0, 140.0, 20.0 ],
-					"text" : "s [re:[mix]]sosc-deviceid"
+					"patching_rect" : [ 220.0, 201.0, 130.0, 20.0 ],
+					"text" : "s [remix]sosc-deviceid"
 				}
 
 			}
@@ -6706,8 +6706,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.282715, 28.0, 138.0, 20.0 ],
-					"text" : "r [re:[mix]]sosc-deviceid"
+					"patching_rect" : [ 199.282715, 28.0, 128.0, 20.0 ],
+					"text" : "r [remix]sosc-deviceid"
 				}
 
 			}
@@ -6720,8 +6720,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 111.65918, 121.0, 19.0 ],
-					"text" : "s [re:[mix]]set-deviceid"
+					"patching_rect" : [ 245.0, 111.65918, 112.0, 19.0 ],
+					"text" : "s [remix]set-deviceid"
 				}
 
 			}
@@ -6735,8 +6735,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.0, 92.0, 119.0, 19.0 ],
-					"text" : "r [re:[mix]]set-deviceid"
+					"patching_rect" : [ 337.0, 92.0, 110.0, 19.0 ],
+					"text" : "r [remix]set-deviceid"
 				}
 
 			}
@@ -7871,8 +7871,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.0, 380.0, 147.0, 18.0 ],
-					"text" : "/mlr/grid/led/all 0"
+					"patching_rect" : [ 211.0, 380.0, 162.0, 18.0 ],
+					"text" : "/remix/grid/led/all 0"
 				}
 
 			}
@@ -7933,7 +7933,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/re:[mix]" ],
+					"args" : [ "/remix" ],
 					"id" : "obj-56",
 					"maxclass" : "bpatcher",
 					"name" : "serialosc2.maxpat",
