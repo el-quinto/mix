@@ -1,0 +1,1 @@
+for ipad layout choose 8x8 in setup. do not enable 64 controls
