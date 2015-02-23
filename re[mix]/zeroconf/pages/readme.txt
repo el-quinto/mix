@@ -1,1 +1,0 @@
-serialosc-zeroconf.maxpat goes in your max6/patches folder
