@@ -8,7 +8,7 @@ top row controls:
 16	master send1-6 (with mod 1 held)	decrease volume for group 1-61-6 (with mod 2 held)	increase volume for group 1-61-6 (with both mods held)	mute/unmute group 1-6 (momentary when held)
 
 9-12 (with mod 1 held)	stop pattern without erasing9-12 (with mod 2 held)	overdub pattern (only works if pattern already recorded)9-12 (with both mods held)	record go, record punch-in, record previous, record next,
-13 (with mod 1 held)	toggle group page14 (with mod 1 held)	toggle reverse page15 (with mod 1 held)	toggle loop length page13 (with mod 2 held)	toggle octave page14 (with mod 2 held)	toggle file pagepress both mod buttons to exit pages.15 (with mod 2 held)    tap tempo
+13 (with mod 1 held)	toggle group/play mode page14 (with mod 1 held)	toggle reverse page15 (with mod 1 held)	toggle loop length page13 (with mod 2 held)	toggle octave page14 (with mod 2 held)	toggle file pagepress both mod buttons to exit pages.15 (with mod 2 held)    tap tempo
 
 13 (with both mods held) global octave -
 14 (with both mods held) global octave +
