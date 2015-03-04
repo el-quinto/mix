@@ -31,4 +31,4 @@ for 64:
 
 midi.amxd- recieves all press data and sends it out as midi (if midi out is enabled). you can also send midi to the midi.amxd to trigger press data. since midi only has 128 values, you need to use the midi2.amxd for the bottom 8 rows of a 256.
 
-click Tips in the setup tab to see keyboard shortcuts
+click Tips in the setup tab to see keyboard shortcuts!
