@@ -1,4 +1,4 @@
-The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. Change the color of your group output tracks to color-code the colors on the interface for the corresponding groups.
+The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
 
 top row controls:
 1-6	stop playback for groups 1-67-8	modifier 1 and 2
