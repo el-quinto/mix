@@ -19,6 +19,7 @@ Mods 3+4 (previous/next preset when held)
 9-12 (with mod 3 held) - step length page, reverse page, group page, octave page
 15 (with mod 3 held) - macro toggle (can be momentary when held) (pattern recordable)
 
+10 (with mod 4 held) - tap tempo
 11 (with mod 4 held) - record length page
 12 (with mod 4 held) - file page
 15 (with mod 4 held) - punch-in
