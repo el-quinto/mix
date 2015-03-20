@@ -5,8 +5,8 @@ top row controls:
 9-12	start/stop+erase pattern record
 13	previous preset (mod 3 when held)
 14	next preset (mod 4 when held)
-15	set tempo (light indicates a mismatch between current and preset tempos)
-16	master send (can be momentary when held)Mods1-6 (with mod 1 held)	decrease volume for group 1-61-6 (with mod 2 held)	increase volume for group 1-61-6 (with both mods 1+2 held) mute/unmute group 1-6 (momentary when held)
+15	macros toggle (can be momentary when held) (pattern recordable)
+16	sends toggle (can be momentary when held)Mods1-6 (with mod 1 held)	decrease volume for group 1-61-6 (with mod 2 held)	increase volume for group 1-61-6 (with both mods 1+2 held) mute/unmute group 1-6 (momentary when held)
 
 9-12 (with mod 1 held)	pause pattern (press 9-12 again without mod held to resume)9-12 (with mod 2 held)	overdub pattern (only works if pattern already recorded)9-12 (with both mods 1+2 held)	erase paused pattern
 
@@ -17,7 +17,7 @@ top row controls:
 Mods 3+4 (previous/next preset when held)
 
 9-12 (with mod 3 held) - step length page, reverse page, group page, octave page
-15 (with mod 3 held) - macro toggle (can be momentary when held) (pattern recordable)
+15 (with mod 3 held) - set tempo (light indicates a mismatch between current and preset tempos)
 
 10 (with mod 4 held) - tap tempo
 11 (with mod 4 held) - record length page
