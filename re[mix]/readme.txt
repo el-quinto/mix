@@ -1,7 +1,7 @@
 The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
 
 top row controls:
-1-6	stop playback for groups 1-67-8	modifier 1 and 2
+1-6	stop playback for groups 1-67-8	modifier 1 and 2 (press both mod buttons to exit pages)
 9-12	start/stop+erase pattern record
 13	previous preset (mod 3 when held)
 14	next preset (mod 4 when held)
@@ -14,19 +14,15 @@ top row controls:
 14 (with both mod 2 held) global octave +
 15 (with both mod 2 held) global reverse
 
-Mods 3+4 (previous/next preset when held)
+Mods 3+4 (previous+next preset) = Record Go
 
 9-12 (with mod 3 held) - step length page, reverse page, group page, octave page
 15 (with mod 3 held) - set tempo (light indicates a mismatch between current and preset tempos)
 
-10 (with mod 4 held) - tap tempo
-11 (with mod 4 held) - record length page
+11 (with mod 4 held) - record length / record select page
 12 (with mod 4 held) - file page
 15 (with mod 4 held) - punch-in
-16 (with mod 4 held) - record go
-
-15 (with mods 3+4 held) - previous recorder input
-16 (with mods 3+4 held) - next recorder input
+16 (with mod 4 held) - tap tempo
 
 ——————————————————————————
 
