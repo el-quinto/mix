@@ -43,4 +43,4 @@ Mods 3+4 (previous+next preset) = Record Go
 5-6 (with mod 1 held)	stop pattern without erasing5-6 (with mod 2 held)	overdub pattern (only works if pattern already recorded)
 5-6 (with both mods held)   preset - +
 
-
+launchpad - enable LP switch in setup tab. layout same as 128/256 except 9-16 correspond to the launchpad’s right column circular buttons. switch track’s midi-in/out to 'launchpad' after u load remix.
