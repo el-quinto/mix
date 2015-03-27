@@ -27,6 +27,7 @@ click Tips in the setup tab to see keyboard shortcuts!
 Mods 3+4 (previous+next preset) = Record Go
 
 9-12 (with mod 3 held) - step length page, reverse page, group page, octave page
+(pages are momentary if you keep holding mod 3 after selecting)
 15 (with mod 3 held) - set tempo (light indicates a mismatch between current and preset tempos)
 
 11 (with mod 4 held) - record length / record select page
