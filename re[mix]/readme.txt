@@ -1,6 +1,6 @@
 The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
 ————————————————————
-macro control- just like your group1-6 track's sends, re:mix is able to control the first 8 controls on each track's devices (intended for effect rack macros). to get this working- drop an effect rack on each group's track ('example macros' effect rack included), then click refresh on the group1.amxd for re:mix to gain focus. if u load a Live set with your tracks already set up with effect racks, refreshing isn't necessary.
+macro control- just like your group1-6 track's sends, re:mix is able to control the first 8 controls on each track's devices (intended for effect rack macros). to get this working- drop an effect rack on each group's track ('example macros' effect rack included), then click refresh any group.amxd for re:mix to gain focus. if u load a Live set with your tracks already set up with effect racks, refreshing isn't necessary.
 
 the 8 dials in the sampler window to the right of your sends are your macro settings. these, just like with sends, can be different values for each row.
 ————————————————————
