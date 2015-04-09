@@ -8,7 +8,7 @@ input.amxd- place this on the track you want to record. you can load multiple in
 ————————————————————
 midi in/out- re:mix recieves all press data and outputs it as midi if midi out is enabled. you can also send midi to the device to trigger press data. since midi only has 128 values, you need an additional midi track with the midi(row9-16).amxd for midi to/from the bottom 8 rows of a 256.
 name piano roll.adg - placing this on a track makes it so u can see the row/button names on the piano roll.
-————————————————————
+———————————————————— 
 click Tips in the setup tab to see keyboard shortcuts!
 
 128/256 top row controls:
