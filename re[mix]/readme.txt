@@ -9,10 +9,10 @@ input.amxd- place this on the track you want to record. you can load multiple in
 midi in/out- re:mix recieves all press data and outputs it as midi if midi out is enabled. you can also send midi to the device to trigger press data. since midi only has 128 values, you need an additional midi track with the midi(row9-16).amxd for midi to/from the bottom 8 rows of a 256.
 name piano roll.adg - placing this on a track makes it so u can see the row/button names on the piano roll.
 ———————————————————— 
-click Tips in the setup tab to see keyboard shortcuts!
+click Tips in the setup tab for keyboard shortcuts!
 
 128/256 top row controls:
-1-6	stop playback for groups 1-67-8	modifier 1 and 2 (press both mod buttons to exit pages)
+1-6	stop playback for groups 1-67-8	modifier 1 and 2
 9-12	start/stop+erase pattern record
 13	previous preset (mod 3 when held)
 14	next preset (mod 4 when held)
@@ -36,6 +36,7 @@ Mods 3+4 (previous+next preset) = Record Go
 15 (with mod 4 held) - punch-in
 16 (with mod 4 held) - tap tempo
 
+(press both mod1/2 buttons or either mod3/4 to exit pages)
 ——————————————————————————
 
 64 top row controls: 
@@ -44,5 +45,6 @@ Mods 3+4 (previous+next preset) = Record Go
 1-4 (with mod 1 held)	decrease volume for group 1-41-4 (with mod 2 held)	increase volume for group 1-41-4 (with both mods held)	mute/unmute group 1-4 (momentary when held)
 5-6 (with mod 1 held)	stop pattern without erasing5-6 (with mod 2 held)	overdub pattern (only works if pattern already recorded)
 5-6 (with both mods held)   preset - +
+quickly press mod1 or 2 to trigger send/macro switches
 
 launchpad - enable LP switch in setup tab. layout same as 128/256 except 9-16 correspond to the launchpad’s right column circular buttons. switch track’s midi-in/out to 'launchpad' after u load remix.

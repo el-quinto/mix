@@ -1,1 +1,1 @@
-for ipad layout choose 8x8 in setup. do not enable 64 controls
+for ipad layout choose 128 layout in setup. set step length on rows to 8
