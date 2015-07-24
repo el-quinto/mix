@@ -19,13 +19,16 @@ click Info in the setup tab for keyboard shortcuts!
 
 9-12 (with mod 1 held)	pause pattern (press 9-12 again without mod held to resume)9-12 (with mod 2 held)	overdub pattern (only works if pattern already recorded)9-12 (with both mods 1+2 held)	erase paused pattern
 
-13 (with both mod 2 held) global octave -
-14 (with both mod 2 held) global octave +
-15 (with both mod 2 held) global reverse
+13 (with mod 2 held) global octave -
+14 (with mod 2 held) global octave +
+15 (with mod 2 held) global reverse
 
 Mods 3+4 (previous+next preset) = Record Go
 
-9-12 (with mod 3 held) - step length page, reverse page, group page, octave page
+9  (with mod 3 held) - step length page
+10 (with mod 3 held) - reverse page
+11 (with mod 3 held) - group page (columns 1-6 = groups, 7-8 = row vol, 9-12 = play mode)
+12 (with mod 3 held) - octave page
 (pages are momentary if you keep holding mod 3 after selecting)
 15 (with mod 3 held) - set tempo (light indicates a mismatch between current and preset tempos)
 
@@ -44,5 +47,3 @@ Mods 3+4 (previous+next preset) = Record Go
 5-6 (with mod 1 held)	stop pattern without erasing5-6 (with mod 2 held)	overdub pattern (only works if pattern already recorded)
 5-6 (with both mods held)   preset - +
 quickly press mod1 or 2 to trigger send/macro switches
-
-launchpad - enable LP switch in setup tab. layout same as 128/256 except 9-16 correspond to the launchpad’s right column circular buttons. switch track’s midi-in/out to 'launchpad' after u load remix.
