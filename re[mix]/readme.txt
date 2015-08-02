@@ -1,6 +1,8 @@
+Max 7 / Live 9.2 or later required.
+
 The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
 ————————————————————
-send / macro control- re:mix is able to control the sends and first 8 parameters on each group’s track (can be different values for each row). drop an effect rack on each group's track ('example macros' effect rack included) for macro control.the 8 dials in the sampler window to the right of your sends are your macro settings. 
+send / macro control- re:mix is able to control the sends and first 8 parameters on each group’s track (can be different values for each row). drop an effect rack on each group's track ('example macros' effect rack included) for macro control. 
 ————————————————————
 input.amxd- place this on the track you want to record. you can load multiple instaces on different tracks, and each can be set to record to a different input buffer (1-8) in re:mix
 ————————————————————
@@ -30,7 +32,7 @@ Mods 3+4 (previous+next preset) = Record Go
 11 (with mod 3 held) - group page (columns 1-6 = groups, 7-8 = row vol, 9-12 = play mode)
 12 (with mod 3 held) - octave page
 (pages are momentary if you keep holding mod 3 after selecting)
-15 (with mod 3 held) - set tempo (light indicates a mismatch between current and preset tempos)
+15 (with mod 3 held) - set  next tempo 
 
 11 (with mod 4 held) - record length / record select page
 12 (with mod 4 held) - file page
