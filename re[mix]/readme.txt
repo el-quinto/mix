@@ -4,7 +4,7 @@ The Group1-6 .amxd's are the audio outputs for each group. If u don't load them,
 ————————————————————
 send / macro control- re:mix is able to control the sends and first 8 parameters on each group’s track (can be different values for each row). drop an effect rack on each group's track ('example macros' effect rack included) for macro control. 
 ————————————————————
-input.amxd- place this on the track you want to record. you can load multiple instaces on different tracks, and each can be set to record to a different input buffer (1-8) in re:mix. if u want to midi-map anything in the floating window, u must have the re:mix track selected before u go into midi-map mode.
+input.amxd- place this on the track you want to record. you can load multiple instaces on different tracks, and each can be set to record to a different input buffer (1-8) in re:mix
 ————————————————————
 midi in/out- re:mix recieves all press data and outputs it as midi if midi out is enabled. you can also send midi to the device to trigger press data. since midi only has 128 values, you need an additional midi track with the midi(row9-16).amxd for midi to/from the bottom 8 rows of a 256.
 name piano roll.adg - placing this on the re:mix track makes it so u can see the row/button names on the piano roll.
