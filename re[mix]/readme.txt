@@ -2,7 +2,7 @@ Max 7 / Live 9.2 or later required.
 
 The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
 ————————————————————
-send / macro control- re:mix is able to control the sends and first 8 parameters on each group’s track (can be different values for each row). drop an effect rack on each group's track ('example macros' effect rack included) for macro control. 
+send / macro control- re:mix is able to control the first 4 sends and first 8 device parameters on each group’s track (can be different values for each row / each preset). there’s an ’example macros' effect rack included to get you started, but the fx are purposefully cheesy to encourage you to experiment and make your own.
 ————————————————————
 input.amxd- place this on the track you want to record. you can load multiple instaces on different tracks, and each can be set to record to a different input buffer (1-8) in re:mix
 ————————————————————
