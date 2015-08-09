@@ -1,1 +1,1 @@
-![](https://lh3.googleusercontent.com/YVtHJFW1tPR41dx8lZqEc6kXz18cAzGcDLKTp9SjBg=w915-h769-no)
+![](https://www.dropbox.com/s/ccfhybtoepd0a8d/donate2.jpg?dl=0)
