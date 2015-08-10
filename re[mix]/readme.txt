@@ -1,7 +1,7 @@
 Max 7 / Live 9.2 or later required. 
 old Max 6 version is here https://github.com/el-quinto/mix/releases.
 
-re:mix is essentially mlr (soundcyst edit), ported to max for live, torn apart, put back together and completely rewritten with inspiration from all of the mlr variations released over the years, particularly the mlr3 preview and mlrv. mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d highly recommend u start there. re:mix will make much more sense if you do.
+re:mix is essentially mlr (soundcyst edit), ported to max for live, torn apart, put back together and rewritten with inspiration from all of the mlr variations released over the years, particularly the mlr3 preview and mlrv. mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d highly recommend u start there. re:mix will make much more sense if you do.
 ———————————————————— 
 installation-
 this can be done in a variety of ways, but the absolute easiest method, is to place the downloaded folder wherever you’d prefer on your hard drive, then drag it into Live’s browser, under PLACES.
