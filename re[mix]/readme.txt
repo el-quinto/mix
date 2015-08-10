@@ -1,8 +1,12 @@
 Max 7 / Live 9.2 or later required.
 
 re:mix is based on mlr, a monome application by Brian Crabtree. if you haven’t tried mlr, i highly suggest u start there. re:mix will make a lot more sense if you do.
-
-The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
+————————————————————
+installation-
+this can be done in a variety of ways, but the absolute easiest method, is to place the downloaded folder wherever you’d prefer on your hard drive, then drag it into Live’s browser, under PLACES.
+————————————————————
+quickstart-
+Load the remix device onto an empty midi track. Group 1-6.amxd's are the audio outputs for each group. u need to load these on separate audio tracks to get audio for those groups (and led movement). drag wav, aiff, or mp3 files from Live’s browser, Session or Arrange view to the re:mix interface to load them to the desired row. Whole folders of files can be loaded by dragging from Finder. that’s about it, mash buttons and have fun!
 ————————————————————
 send / macro control- re:mix is able to control the first 4 sends and first 8 device parameters on each group’s track (can be different values for each row / each preset). there’s an ’example macros' effect rack included to get you started, but the fx are purposefully cheesy to encourage you to experiment and make your own.
 ————————————————————
