@@ -1,5 +1,7 @@
 Max 7 / Live 9.2 or later required.
 
+re:mix is based on mlr, a monome application by Brian Crabtree. if you haven’t tried mlr, i highly suggest u start there. re:mix will make a lot more sense if you do.
+
 The Group1-6 .amxd's are the audio outputs for each group. If u don't load them, you won't get audio for those groups (or led movement). re:mix is multichannel so u load these on separate audio tracks. u can change the color of your group output tracks to color-code your groups on the re:mix interface.
 ————————————————————
 send / macro control- re:mix is able to control the first 4 sends and first 8 device parameters on each group’s track (can be different values for each row / each preset). there’s an ’example macros' effect rack included to get you started, but the fx are purposefully cheesy to encourage you to experiment and make your own.
