@@ -1,7 +1,9 @@
 Max 7 / Live 9.2 or later required. 
 old Max 6 version is here https://github.com/el-quinto/mix/releases.
 
-re:mix is essentially mlr (soundcyst edit), ported to max for live, torn apart, put back together and rewritten with inspiration from all of the mlr variations released over the years, particularly the mlr3 preview and mlrv. mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d highly recommend u start there. re:mix will make much more sense if you do.
+re:mix is essentially mlr, finely tuned and greatly expanded upon for a new life in max for live. it takes inspiration from all the variations released over the years, particularly the mlr3 preview and mlrv. (it was originally based on mlr_cyst, a modification by soundcyst)
+
+mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d highly recommend u start there. re:mix will make much more sense if you do.
 ———————————————————— 
 installation-
 this can be done in a variety of ways, but the absolute easiest method, is to place the downloaded folder wherever you’d prefer on your hard drive, then drag it into Live’s browser, under PLACES.
@@ -21,14 +23,23 @@ click Info in the setup tab for keyboard shortcuts!
 ———————————————————— 
 
 128/256 top row controls:
-1-6	stop playback for groups 1-67-8	modifier 1 and 2 (previous/next input when pressed quickly)
+1-6	stop playback for groups 1-6
+7-8	modifier 1 and 2 (previous/next input when pressed quickly)
 9-12	start/stop+erase pattern record
 13	previous preset (mod 3 when held)
 14	next preset (mod 4 when held)
 15	macros toggle (can be momentary when held) (pattern recordable)
-16	sends toggle (can be momentary when held)Mods1-6 (with mod 1 held)	decrease volume for group 1-61-6 (with mod 2 held)	increase volume for group 1-61-6 (with both mods 1+2 held) mute/unmute group 1-6 (momentary when held)
+16	sends toggle (can be momentary when held)
 
-9-12 (with mod 1 held)	pause pattern (press 9-12 again without mod held to resume)9-12 (with mod 2 held)	overdub pattern (only works if pattern already recorded)9-12 (with both mods 1+2 held)	erase paused pattern
+Mods
+
+1-6 (with mod 1 held)	decrease volume for group 1-6
+1-6 (with mod 2 held)	increase volume for group 1-6
+1-6 (with both mods 1+2 held) mute/unmute group 1-6 (momentary when held)
+
+9-12 (with mod 1 held)	pause pattern (press 9-12 again without mod held to resume)
+9-12 (with mod 2 held)	overdub pattern (only works if pattern already recorded)
+9-12 (with both mods 1+2 held)	erase paused pattern
 
 13 (with mod 2 held) global octave -
 14 (with mod 2 held) global octave +
@@ -52,9 +63,13 @@ Mods 3+4 (previous+next preset) = Record Go
 ——————————————————————————
 
 64 top row controls: 
-1-4	stop playback for groups 1-45-6	pattern recorders
+1-4	stop playback for groups 1-4
+5-6	pattern recorders
 7-8	modifier 1 and 2
-1-4 (with mod 1 held)	decrease volume for group 1-41-4 (with mod 2 held)	increase volume for group 1-41-4 (with both mods held)	mute/unmute group 1-4 (momentary when held)
-5-6 (with mod 1 held)	stop pattern without erasing5-6 (with mod 2 held)	overdub pattern (only works if pattern already recorded)
+1-4 (with mod 1 held)	decrease volume for group 1-4
+1-4 (with mod 2 held)	increase volume for group 1-4
+1-4 (with both mods held)	mute/unmute group 1-4 (momentary when held)
+5-6 (with mod 1 held)	stop pattern without erasing
+5-6 (with mod 2 held)	overdub pattern (only works if pattern already recorded)
 5-6 (with both mods held)   preset - +
 quickly press mod1 or 2 to trigger send/macro switches
