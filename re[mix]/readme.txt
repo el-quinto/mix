@@ -1,7 +1,7 @@
 Max 7 / Live 9.2 or later required. 
 old Max 6 version is here https://github.com/el-quinto/mix/releases.
 
-re:mix is essentially mlr, finely tuned and greatly expanded upon for a new life in max for live. it takes inspiration from all the variations released over the years, particularly the mlr3 preview and mlrv. (it was originally based on mlr_cyst, a modification by soundcyst)
+re:mix is essentially mlr, finely tuned and greatly expanded upon for a new life in max for live. it takes inspiration from the many variations released over the years, particularly the mlr3 preview and mlrv. (it was originally based on mlr_cyst, a modification by soundcyst)
 
 mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d highly recommend u start there. re:mix will make much more sense if you do.
 ———————————————————— 
