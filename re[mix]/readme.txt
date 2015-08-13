@@ -8,7 +8,7 @@ mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d 
 installation-
 this can be done in a variety of ways, but the absolute easiest method, is to place the downloaded folder wherever you’d prefer on your hard drive, then drag it into Live’s browser, under PLACES.
 
-upgrading from a previous installation- just replace the folder or folder's contents with the newer files.
+upgrading from a previous installation- just replace the previusly installed folder or folder's contents with the newer files.
 ————————————————————
 quickstart-
 Load the re:mix device onto an empty midi track. Group 1-6.amxd's are the audio outputs for each group. load these on separate audio tracks to get audio for those groups (and led movement). then drag wav, aiff, or mp3 files from Live’s browser, Session or Arrange view to the re:mix interface to load them to the desired row. Files/whole folders of files can be also be loaded by dragging from Finder. that’s about it, mash buttons and have fun!
