@@ -7,6 +7,8 @@ mlr is a monome application by Brian Crabtree. if you haven’t tried it, i’d 
 ———————————————————— 
 installation-
 this can be done in a variety of ways, but the absolute easiest method, is to place the downloaded folder wherever you’d prefer on your hard drive, then drag it into Live’s browser, under PLACES.
+
+upgrading from a previous installation- just replace the folder or folder's contents with the newer files.
 ————————————————————
 quickstart-
 Load the re:mix device onto an empty midi track. Group 1-6.amxd's are the audio outputs for each group. load these on separate audio tracks to get audio for those groups (and led movement). then drag wav, aiff, or mp3 files from Live’s browser, Session or Arrange view to the re:mix interface to load them to the desired row. Files/whole folders of files can be also be loaded by dragging from Finder. that’s about it, mash buttons and have fun!
@@ -15,7 +17,8 @@ live sampling- place the input.amxd on the track you want to record. you can loa
 ————————————————————
 midi in/out- re:mix recieves all press data and can output it as midi (if midi out is enabled). you can also send midi to the device to trigger press data. since midi only has 128 values, you need an additional midi track with the midi(row9-16).amxd for midi to/from the bottom 8 rows of a 256.
 name piano roll.adg - placing this on the re:mix track makes it so u can see the row/button names on the piano roll.
-
+———————————————————— 
+sends/macros- you can control the values of the first 4 sends and first 8 device parameters on each group’s track for each row. when u trigger a sample, the sends/macros will jump to whatever values you have set for that row in re:mix. (send / macros toggles must be on) there’s an ’example macros' effect rack included to get you started, but the fx are purposefully cheesy to encourage you to experiment and make your own. (tip- try sidechaining in your racks!)
 ———————————————————— 
 click Info in the setup tab for keyboard shortcuts!
 ———————————————————— 
