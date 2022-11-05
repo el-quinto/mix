@@ -1,1 +1,1 @@
-move the serialosc-zeroconf.maxpat to /User/Documents/Max 7/Library
+serialosc-zeroconf.maxpat goes in your max6.1/patches folder
