@@ -3985,8 +3985,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 283.0, 101.0, 19.0 ],
-					"text" : "sprintf set mybuffer.%s"
+					"patching_rect" : [ 250.0, 366.0, 108.0, 19.0 ],
+					"text" : "sprintf set ---mybuffer.%s"
 				}
 
 			}
@@ -9463,8 +9463,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 214.0, 431.0, 129.0, 22.0 ],
-					"text" : "grooveduck2 mybuffer"
+					"patching_rect" : [ 214.0, 431.0, 139.0, 22.0 ],
+					"text" : "grooveduck2 ---mybuffer"
 				}
 
 			}
@@ -12765,14 +12765,14 @@
 			}
 , 			{
 				"name" : "grooveduck2.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
