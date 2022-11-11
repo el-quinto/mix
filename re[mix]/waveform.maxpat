@@ -1688,7 +1688,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.0, 3.0, 66.0, 19.0 ],
+									"patching_rect" : [ 93.0, 0.0, 66.0, 19.0 ],
 									"text" : "loadmess ---"
 								}
 
@@ -1727,13 +1727,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 208.0, 145.0, 72.0, 19.0 ],
+									"patching_rect" : [ 208.0, 145.0, 68.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
 									}
 ,
-									"text" : "coll [mlr]ch 1"
+									"text" : "coll ---[mlr]ch 1"
 								}
 
 							}
@@ -1908,8 +1908,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.0, 72.0, 69.0, 19.0 ],
-									"text" : "set $1[pl]line"
+									"patching_rect" : [ 43.0, 72.0, 73.0, 19.0 ],
+									"text" : "set $1[---]line"
 								}
 
 							}
@@ -3409,7 +3409,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "record.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3417,7 +3417,7 @@
 , 			{
 				"name" : "turnitoff.maxpat",
 				"bootpath" : "~/Documents/Max 8/Max for Live Devices/re[mix] Project/patchers",
-				"patcherrelativepath" : "../../re[mix] Project/patchers",
+				"patcherrelativepath" : "../../../Max 8/Max for Live Devices/re[mix] Project/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
