@@ -5,7 +5,7 @@ realtime sampling, slicing and re-sequencing. concept based on the monome applic
 
 BETA version
 
-Todo-
+Todo/in progress-
 \
 -reworking Preset Browser
 \
