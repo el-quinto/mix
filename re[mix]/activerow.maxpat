@@ -56,7 +56,7 @@
 					"patching_rect" : [ 346.72473100000002, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 520.0, 34.481811999999998, 90.0, 17.0 ],
-					"text" : "Macro 8",
+					"text" : "Unison Voices",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -81,7 +81,7 @@
 					"patching_rect" : [ 168.974730999999991, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 520.0, 6.981812, 90.0, 17.0 ],
-					"text" : "Macro 4",
+					"text" : "Octave",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -106,7 +106,7 @@
 					"patching_rect" : [ 258.75, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 334.0, 34.481811999999998, 90.0, 17.0 ],
-					"text" : "Macro 6",
+					"text" : "Detune",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -131,7 +131,7 @@
 					"patching_rect" : [ 215.974730999999991, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.0, 34.481811999999998, 90.0, 17.0 ],
-					"text" : "Macro 5",
+					"text" : "Semitone",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -156,7 +156,7 @@
 					"patching_rect" : [ 124.974731000000006, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 427.0, 6.981812, 90.0, 17.0 ],
-					"text" : "Macro 3",
+					"text" : "Volume",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -181,7 +181,7 @@
 					"patching_rect" : [ 80.974731000000006, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 334.0, 6.981812, 90.0, 17.0 ],
-					"text" : "Macro 2",
+					"text" : "PB Range",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -206,7 +206,7 @@
 					"patching_rect" : [ 37.974730999999998, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.0, 6.981812, 90.75, 17.0 ],
-					"text" : "Macro 1",
+					"text" : "Voices",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -231,7 +231,7 @@
 					"patching_rect" : [ 300.47473100000002, 299.707642000000021, 43.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 427.0, 34.481811999999998, 90.0, 17.0 ],
-					"text" : "Macro 7",
+					"text" : "Unison On/Off",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
@@ -5683,20 +5683,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 380.5, 419.543945000000008, 97.0, 20.0 ],
-					"text" : "s ---[ch]autoselect"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Avenir Next Regular",
 					"fontsize" : 10.0,
 					"id" : "obj-158",
@@ -5709,34 +5695,6 @@
 					"text" : "snap to",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"fontname" : "Avenir Next Regular",
-					"fontsize" : 10.0,
-					"hint" : "when auto-select is on, pressing a pad will select that row on the interface",
-					"id" : "obj-125",
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 431.97473100000002, 395.0, 46.0, 15.377563 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 183.481811999999991, 42.291381999999999, 15.0 ],
-					"text" : "autosel",
-					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
-					"texton" : "autosel",
-					"textoncolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
-					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
 				}
 
 			}
@@ -7322,25 +7280,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.18, 0.18, 0.18, 1 ],
-					"border" : 1,
-					"bordercolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
-					"id" : "obj-52",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 378.377563000000009, 59.0, 32.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 183.481811999999991, 42.291381999999999, 15.0 ],
-					"proportion" : 0.39,
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-175",
@@ -8731,13 +8670,6 @@
 					"midpoints" : [ 1048.97473100000002, 382.164062000000001, 829.22473100000002, 382.164062000000001 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-125", 0 ]
 				}
 
 			}
@@ -10368,7 +10300,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

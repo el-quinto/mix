@@ -2231,7 +2231,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 117.5, 38.0, 20.0 ],
+					"patching_rect" : [ 41.0, 78.5, 38.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 18.0, 701.5, 20.0 ],
 					"rounded" : 4.0
@@ -5602,7 +5602,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 136.0, 159.0, 41.0, 19.0 ],
+					"patching_rect" : [ 136.0, 154.5, 41.0, 19.0 ],
 					"text" : "sel fold"
 				}
 
@@ -12142,7 +12142,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 142.0, 409.0, 640.0, 428.0 ],
+						"rect" : [ 565.0, 406.0, 640.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -12386,7 +12386,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 119.0, 360.0, 81.0, 22.0 ],
+					"patching_rect" : [ 121.5, 360.0, 81.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -13768,7 +13768,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 696.0, 157.0, 640.0, 376.0 ],
+						"rect" : [ 361.0, 412.0, 986.0, 376.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -14424,16 +14424,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"order" : 1,
+									"destination" : [ "obj-17", 1 ],
+									"order" : 0,
 									"source" : [ "obj-42", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 1 ],
-									"order" : 0,
+									"destination" : [ "obj-36", 0 ],
+									"order" : 1,
 									"source" : [ "obj-42", 0 ]
 								}
 
@@ -28213,28 +28213,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "",
-				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "fold",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "row-loop.png",
-				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample-forward.png",
-				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
