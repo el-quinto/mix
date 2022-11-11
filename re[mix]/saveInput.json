@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "saveInput",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"inputInsertionPoint" : [ 2 ],
+					"selectTrack" : [ 2 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

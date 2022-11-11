@@ -1,1 +1,0 @@
-move the serialosc-zeroconf.maxpat to /User/Documents/Max 7/Library
