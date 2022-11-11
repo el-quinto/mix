@@ -2047,8 +2047,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 1,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -2966,12 +2964,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 106.0, 529.0, 129.0, 23.0 ],
+									"patching_rect" : [ 106.0, 529.0, 140.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
 ,
-									"text" : "polybuffer~ mybuffer"
+									"text" : "polybuffer~ ---mybuffer"
 								}
 
 							}
@@ -5511,7 +5509,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 1 ],
-									"midpoints" : [ 225.5, 577.16589399999998, 102.5, 577.16589399999998 ],
+									"midpoints" : [ 236.5, 577.16589399999998, 102.5, 577.16589399999998 ],
 									"order" : 1,
 									"source" : [ "obj-72", 1 ]
 								}
@@ -6069,7 +6067,7 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

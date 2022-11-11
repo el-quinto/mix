@@ -5953,8 +5953,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.138915999999995, 253.0, 101.0, 19.0 ],
-					"text" : "sprintf set mybuffer.%s"
+					"patching_rect" : [ 537.138915999999995, 267.0, 108.0, 19.0 ],
+					"text" : "sprintf set ---mybuffer.%s"
 				}
 
 			}
@@ -16255,7 +16255,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 233.0, 188.0, 1350.0, 820.0 ],
+						"rect" : [ 821.0, 701.0, 1350.0, 820.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16283,6 +16283,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontsize" : 8.0,
@@ -17964,7 +17965,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 242.0, 579.0, 69.0, 22.0 ],
+									"patching_rect" : [ 276.0, 585.0, 69.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -18742,7 +18743,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 670.0, 491.0, 60.0, 19.0 ],
+									"patching_rect" : [ 676.328125, 492.0, 60.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -28213,28 +28214,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "fold",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "row-loop.png",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/re[mix] Project/media",
-				"patcherrelativepath" : "../../re[mix] Project/media",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample-forward.png",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/re[mix] Project/media",
-				"patcherrelativepath" : "../../re[mix] Project/media",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
