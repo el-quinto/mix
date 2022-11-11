@@ -3546,8 +3546,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.978638000000004, 82.5, 101.0, 19.0 ],
-					"text" : "sprintf set mybuffer.%s"
+					"patching_rect" : [ 33.978638000000004, 82.5, 108.0, 19.0 ],
+					"text" : "sprintf set ---mybuffer.%s"
 				}
 
 			}
@@ -4205,7 +4205,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "turnitoff.maxpat",
 				"bootpath" : "~/Documents/Max 8/Max for Live Devices/re[mix] Project/patchers",
-				"patcherrelativepath" : "../../re[mix] Project/patchers",
+				"patcherrelativepath" : "../../../Max 8/Max for Live Devices/re[mix] Project/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
