@@ -2256,7 +2256,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 686.428588999999988, 218.5, 86.9375, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 475.870604999999841, 18.0, 88.0, 19.0 ],
+					"presentation_rect" : [ 296.25, 18.0, 88.0, 19.0 ],
 					"rounded" : 0.0,
 					"spacing_x" : 1.0,
 					"tabcolor" : [ 0.147647, 0.15549, 0.167255, 1.0 ],
@@ -2934,7 +2934,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 87.0, 288.0, 62.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 294.0, 17.0, 174.0, 23.0 ],
+					"presentation_rect" : [ 387.0, 17.0, 174.0, 23.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.75 ],
 					"varname" : "menu"
 				}
@@ -3036,7 +3036,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 992.875, 291.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 20.0, 166.0, 16.0 ],
+					"presentation_rect" : [ 388.0, 20.0, 166.0, 16.0 ],
 					"textoncolor" : [ 0.803922, 0.898039, 0.909804, 0.0 ]
 				}
 
@@ -3411,7 +3411,6 @@
 				"box" : 				{
 					"alpha" : 0.75,
 					"autofit" : 1,
-					"hidden" : 1,
 					"id" : "obj-56",
 					"ignoreclick" : 1,
 					"maxclass" : "fpic",
@@ -3536,7 +3535,7 @@
 					"patching_rect" : [ 874.25, 213.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 565.870604999999841, 18.0, 20.0, 19.0 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"textcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"textjustification" : 1,
 					"varname" : "mode"
 				}
@@ -3583,7 +3582,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1049.0, 718.0, 112.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.5, 20.0, 173.0, 19.0 ],
+					"presentation_rect" : [ 390.5, 20.0, 173.0, 19.0 ],
 					"rounded" : 0.0,
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"wordwrap" : 0
@@ -4917,7 +4916,7 @@
 					"attr_bpm" : 0.0,
 					"beats" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"buffername" : "mybuffer.1",
+					"buffername" : "---mybuffer.1",
 					"grid" : 500052.0,
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 0.0 ],
 					"id" : "obj-10",
@@ -5439,7 +5438,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 896.861084000000005, 608.775879000000032, 81.0, 18.0 ],
-					"restore" : [ 16 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18540,7 +18539,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 396.0, 304.5, 165.0, 18.0 ],
-									"restore" : [ 16 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -24721,7 +24720,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 681.227295000000026, 1003.5, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.5, 19.0, 178.25, 18.5 ],
+					"presentation_rect" : [ 386.5, 19.0, 178.25, 18.5 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -28214,28 +28213,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "",
-				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "fold",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "row-loop.png",
-				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample-forward.png",
-				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"bootpath" : "~/Downloads/mix-beta/mix-beta/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

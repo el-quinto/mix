@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 74.0, 158.0, 752.0, 662.0 ],
+		"rect" : [ 74.0, 158.0, 750.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -455,7 +455,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 433.0, 708.5, 50.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 258.317047000000002, -2.5, 31.0, 35.0 ]
+					"presentation_rect" : [ 255.317047000000002, -2.5, 31.0, 35.0 ]
 				}
 
 			}
@@ -1129,7 +1129,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 298.5, 87.5, 94.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.634094000000005, 5.0, 189.615905999999995, 23.0 ],
+					"presentation_rect" : [ 290.634094000000005, 5.0, 189.615905999999995, 23.0 ],
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 0.0 ]
 				}
 
@@ -12074,7 +12074,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 192.25, 141.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.134094000000005, 7.0, 187.115905999999995, 20.0 ],
+					"presentation_rect" : [ 293.134094000000005, 7.0, 187.115905999999995, 20.0 ],
 					"text" : "0 - empty",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"textjustification" : 0,
@@ -15308,7 +15308,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 210.75, 504.0, 71.0, 47.201903999999999 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 294.634094000000005, 8.0, 227.0, 17.0 ],
+					"presentation_rect" : [ 291.634094000000005, 8.0, 227.0, 17.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -15487,7 +15487,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.75, 519.0, 71.0, 47.201903999999999 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.317047000000002, 7.5, 30.0, 17.0 ],
+					"presentation_rect" : [ 222.317047000000002, 7.5, 30.0, 17.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -15505,7 +15505,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.317047000000002, 347.5, 71.0, 47.201903999999999 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.317047000000002, 7.5, 30.0, 17.0 ],
+					"presentation_rect" : [ 257.317047000000002, 7.5, 30.0, 17.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -17137,15 +17137,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sample-forward.png",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/re[mix] Project/media",
-				"patcherrelativepath" : "../../re[mix] Project/media",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "turnitoff.maxpat",
 				"bootpath" : "~/Documents/Max 8/Max for Live Devices/re[mix] Project/patchers",
-				"patcherrelativepath" : "../../re[mix] Project/patchers",
+				"patcherrelativepath" : "../../../Max 8/Max for Live Devices/re[mix] Project/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
