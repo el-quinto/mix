@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 518.0, 85.0, 666.0, 754.0 ],
+		"rect" : [ 87.0, 196.0, 666.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 261.0, 440.0, 58.0, 22.0 ],
+					"text" : "change 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 393.0, 484.0, 76.0, 19.0 ],
+					"text" : "s ---mnm/rec_sel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 356.0, 440.0, 52.0, 19.0 ],
+					"text" : "r ---[rec]sel"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -48,7 +89,7 @@
 					"patching_rect" : [ 533.0, 706.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"inputInsertionPoint" : [ 0 ],
-						"live.numbox" : [ 0.0 ],
+						"live.numbox" : [ 1.0 ],
 						"selectTrack" : [ 0 ]
 					}
 ,
@@ -72,6 +113,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
 							"parameter_mmax" : 8.0,
+							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -448,7 +490,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-27",
-					"items" : [ "Pre FX", ",", "Post FX", ",", "Post Mixer", ",", "Instrument Rack | Bass | Pre FX", ",", "Instrument Rack | Bass | Post FX", ",", "Instrument Rack | Bass | Post Mixer", ",", "Instrument Rack | Bass | Bass | Bass | Pre FX", ",", "Instrument Rack | Bass | Bass | Bass | Post FX", ",", "Instrument Rack | Bass | Bass | Bass | Post Mixer", ",", "fx | Chain | Pre FX", ",", "fx | Chain | Post FX", ",", "fx | Chain | Post Mixer", ",", "repeat | Chain | Pre FX", ",", "repeat | Chain | Post FX", ",", "repeat | Chain | Post Mixer", ",", "filter Range | Chain | Pre FX", ",", "filter Range | Chain | Post FX", ",", "filter Range | Chain | Post Mixer" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -461,7 +503,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Audio Input Insertion",
-							"parameter_mmax" : 17.0,
+							"parameter_mmax" : -1.0,
 							"parameter_shortname" : "Audio Input Insertion",
 							"parameter_type" : 3
 						}
@@ -491,7 +533,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-115",
-					"items" : [ "Ext. In", ",", "Tomb", ",", "In 1", ",", "Bass", ",", "SG", ",", "out3", ",", "Mic", ",", "Vox", ",", "Remaster", ",", "A-Delay", ",", "B-Verb", ",", "C-Grain", ",", "D-Corpus", ",", "E-Verb", ",", "F-Vox", ",", "Master", ",", "No Input" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -504,7 +546,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Select Audio Input Track",
-							"parameter_mmax" : 16.0,
+							"parameter_mmax" : -1.0,
 							"parameter_shortname" : "Select Audio Input Track",
 							"parameter_type" : 3
 						}
@@ -582,7 +624,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 1 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -590,8 +640,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -785,6 +842,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -847,7 +911,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "RoutingObjects.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
