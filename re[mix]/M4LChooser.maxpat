@@ -267,18 +267,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.0, 139.0, 86.0, 20.0 ],
-					"text" : "r ---stackchange"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -571,13 +559,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -890,7 +871,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "M4L.chooser.js",
-				"bootpath" : "C74:/patchers/m4l/LiveAPI resources/tools",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
