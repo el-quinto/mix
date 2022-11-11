@@ -7,11 +7,11 @@ BETA version
 
 Todo-
 
->Preset Browser
+>Preset Browser rework
 
->64/128/256 size detection/ mapping/ UI scale
+>fix 64/128/256 size detection/ mapping/ UI scale
 
->non-varibright support
+>fix non-varibright support
 
 >control page
 
