@@ -9,17 +9,13 @@ Todo/in progress-
 \
 -reworking Preset Browser
 \
--fix 64/128/256 size detection/ mapping/ UI scale
+-reworking pattern recorders
 \
--fix non-varibright support
+-reworking mlr-aux
 \
 -control page
 \
 -record page
-\
--reworking pattern recorders
-\
--reworking mlr-aux
 \
 -fix bugs
 \
