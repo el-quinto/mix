@@ -9,10 +9,6 @@ Todo/in progress-
 \
 -reworking Preset Browser
 \
--fix 64/128/256 size detection/ mapping/ UI scale
-\
--fix non-varibright support
-\
 -control page
 \
 -record page
