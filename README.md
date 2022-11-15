@@ -9,13 +9,13 @@ Todo/in progress-
 \
 -reworking Preset Browser
 \
--control page
-\
--record page
-\
 -reworking pattern recorders
 \
 -reworking mlr-aux
+\
+-control page
+\
+-record page
 \
 -fix bugs
 \
