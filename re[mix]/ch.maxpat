@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 293.0, 147.0, 1066.0, 994.0 ],
+		"rect" : [ 362.0, 164.0, 934.0, 994.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1187,7 +1187,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.5, 206.0, 82.0, 19.0 ],
+					"patching_rect" : [ 164.0, 200.5, 82.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.5, 18.0, 266.0, 19.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -2966,7 +2966,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 750.0, 337.5, 55.0, 22.0 ],
+					"patching_rect" : [ 747.5, 353.0, 55.0, 22.0 ],
 					"text" : "border 0"
 				}
 
@@ -3101,7 +3101,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 712.875, 148.5, 28.0, 20.0 ],
+					"patching_rect" : [ 718.928588999999988, 148.5, 28.0, 20.0 ],
 					"triangle" : 0,
 					"varname" : "steps"
 				}
@@ -4987,7 +4987,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 809.047606999999971, 182.5, 44.0, 22.0 ],
+					"patching_rect" : [ 781.75, 182.5, 44.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -11575,7 +11575,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 231.0, 218.0, 640.0, 454.0 ],
+						"rect" : [ 42.0, 475.0, 640.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -11774,8 +11774,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 281.0, 54.5, 50.0, 22.0 ],
-									"text" : "change"
+									"patching_rect" : [ 281.0, 54.5, 61.0, 22.0 ],
+									"text" : "change 0."
 								}
 
 							}
@@ -12065,7 +12065,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 564.75, 78.5, 117.0, 22.0 ],
+					"patching_rect" : [ 588.0, 130.5, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -24110,6 +24110,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
 					"source" : [ "obj-158", 2 ]
 				}
 
@@ -24118,6 +24119,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-306", 0 ],
 					"source" : [ "obj-158", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-341", 0 ],
+					"order" : 1,
+					"source" : [ "obj-158", 2 ]
 				}
 
 			}
