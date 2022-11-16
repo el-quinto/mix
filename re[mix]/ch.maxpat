@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 358.0, 111.0, 934.0, 994.0 ],
+		"rect" : [ 257.0, 98.0, 934.0, 994.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1315,7 +1315,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 19.0, 24.0, 18.0 ],
 					"text" : "#1",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "rownum"
 				}
@@ -2087,9 +2087,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 256.0, 247.0, 28.388915999999998, 20.0 ],
+					"patching_rect" : [ 246.75, 239.5, 28.388915999999998, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 585.0, 19.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 589.0, 19.0, 24.0, 20.0 ],
 					"varname" : "setoct"
 				}
 
@@ -2131,8 +2131,8 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Helvetica Neue Bold",
-					"fontsize" : 9.0,
+					"fontname" : "Ableton Sans",
+					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"items" : [ "LOOP", ",", "SHOT", ",", "GATE", ",", "SLICE", ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 9, ",", 10, ",", 11, ",", 12, ",", 13, ",", 14, ",", 15, ",", 16 ],
 					"maxclass" : "umenu",
@@ -2140,9 +2140,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 874.25, 213.0, 50.0, 19.0 ],
+					"patching_rect" : [ 874.25, 213.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 565.870604999999841, 18.0, 20.0, 19.0 ],
+					"presentation_rect" : [ 565.870604999999841, 18.0, 21.0, 20.0 ],
 					"textcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"textjustification" : 1,
 					"varname" : "mode"
