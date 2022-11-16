@@ -7766,13 +7766,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 979.02526899999998, 1112.376220703125, 59.5, 22.0 ],
+					"patching_rect" : [ 979.02526899999998, 1114.753783703125009, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll imm"
+					"text" : "coll ---imm"
 				}
 
 			}
@@ -7785,7 +7785,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1034.52526899999998, 1080.376220703125, 82.0, 22.0 ],
+					"patching_rect" : [ 979.02526899999998, 1054.376220703125, 82.0, 22.0 ],
 					"text" : "r ---[pl]immset"
 				}
 
