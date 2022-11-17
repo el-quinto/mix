@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 526.0, 122.0, 41.0, 22.0 ],
+					"text" : "del 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"allowdrag" : 0,
 					"annotation" : "Selects a track for audio input",
 					"bgcolor" : [ 0.701961, 0.415686, 0.886275, 0.0 ],
@@ -318,7 +330,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 526.0, 100.0, 85.0, 22.0 ],
+					"patching_rect" : [ 526.0, 92.0, 85.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -562,6 +574,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-115", 0 ]
 				}
@@ -662,16 +690,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-267", 0 ],
-					"order" : 1,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -826,20 +845,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.chooser.js",
-				"bootpath" : "C74:/patchers/m4l/LiveAPI resources/tools",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4LChooser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RoutingObjects.maxpat",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Untitled Device Project/patchers",
+				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
