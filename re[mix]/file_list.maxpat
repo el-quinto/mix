@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 431.0, 1368.0, 554.0 ],
+		"rect" : [ 42.0, 264.0, 1368.0, 554.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -162,7 +162,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 25.5, 10.0, 50.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 3.0, 394.0, 76.0 ],
+					"presentation_rect" : [ 28.0, 10.0, 628.0, 87.5 ],
 					"rounded" : 0.0
 				}
 
@@ -208,7 +208,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 194.5, 167.988403000000005, 34.5, 28.011596999999998 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 460.0, 167.237609999999989 ],
+					"presentation_rect" : [ 1.0, 1.0, 730.0, 184.0 ],
 					"rounded" : 0.0
 				}
 
@@ -2047,6 +2047,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 1,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -6067,8 +6069,7 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/GitHub/mix/re[mix]",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
