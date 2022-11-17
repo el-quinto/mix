@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans ",
+					"fontsize" : 11.0,
+					"hint" : "(inner loops)",
+					"id" : "obj-66",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 335.5, 341.131194999999991, 182.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 472.0, 315.131194999999934, 105.103943000000072, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "classic led behavior"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 481.0, 409.0, 58.0, 22.0 ],
+					"text" : "s ---disco"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 521.0, 339.131194999999934, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 579.103943000000072, 314.131194999999934, 18.999999999999943, 18.999999999999943 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans",
 					"fontsize" : 10.0,
 					"id" : "obj-32",
@@ -41256,6 +41304,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"source" : [ "obj-88", 0 ]
 				}
 
 			}
