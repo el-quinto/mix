@@ -49,7 +49,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 335.5, 341.131194999999991, 182.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 472.0, 315.131194999999934, 105.103943000000072, 20.0 ],
+					"presentation_rect" : [ 472.0, 315.131194999999934, 126.103943000000072, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
