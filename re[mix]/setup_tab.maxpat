@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 752.0, 264.0, 739.0, 894.0 ],
+		"rect" : [ 338.0, 264.0, 739.0, 894.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,8 +57,7 @@
 
 					}
 ,
-					"text" : "classic LED behavior",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "classic LED behavior"
 				}
 
 			}
@@ -106,8 +105,7 @@
 
 					}
 ,
-					"text" : " /// based on mlr by brian crabtree /// @tehn (monome.org)",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : " /// based on mlr by brian crabtree /// @tehn (monome.org)"
 				}
 
 			}
@@ -178,8 +176,7 @@
 
 					}
 ,
-					"text" : "default warp mode -",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "default warp mode -"
 				}
 
 			}
@@ -213,7 +210,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "immediate[3]"
 				}
 
@@ -237,8 +233,7 @@
 
 					}
 ,
-					"text" : "pitchshift quality -",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "pitchshift quality -"
 				}
 
 			}
@@ -271,7 +266,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "immediate[2]"
 				}
 
@@ -294,8 +288,7 @@
 
 					}
 ,
-					"text" : "main grid",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "main grid"
 				}
 
 			}
@@ -317,8 +310,7 @@
 
 					}
 ,
-					"text" : "aux64",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "aux64"
 				}
 
 			}
@@ -10092,8 +10084,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.509803921568627, 0.509803921568627, 0.509803921568627, 1.0 ],
-					"bgoncolor" : [ 0.509803921568627, 0.509803921568627, 0.509803921568627, 1.0 ],
+					"bgcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+					"bgoncolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 10.0,
 					"id" : "obj-49",
@@ -10130,10 +10122,10 @@
 					}
 ,
 					"text" : "vb",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "vb",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 0.4 ],
-					"textovercolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 1.0 ],
+					"textovercolor" : [ 0.666666666666667, 0.666666666666667, 0.666666666666667, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1,
 					"varname" : "vb"
@@ -10753,7 +10745,8 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Helvetica Neue",
+					"fontname" : "Ableton Sans",
+					"fontsize" : 11.0,
 					"id" : "obj-58",
 					"items" : [ "Reverse", ",", "Volume/Pan", ",", "Sends", ",", "Macros" ],
 					"maxclass" : "umenu",
@@ -10761,9 +10754,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 954.000000000000114, 490.871764999999982, 50.0, 23.0 ],
+					"patching_rect" : [ 954.000000000000114, 490.871764999999982, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 782.0, 280.5, 64.0, 23.0 ],
+					"presentation_rect" : [ 329.693909101837107, 236.75, 108.999999898162912, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 1,
 					"varname" : "immediate-changes"
@@ -35758,7 +35751,7 @@
 					}
 ,
 					"text" : "re:",
-					"textcolor" : [ 0.509803921568627, 0.509803921568627, 0.509803921568627, 1.0 ]
+					"textcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ]
 				}
 
 			}
@@ -36115,8 +36108,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 1.0 ],
-					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.666666666666667, 0.666666666666667, 0.666666666666667, 1.0 ],
+					"bgoncolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ],
 					"fontname" : "Ableton Sans ",
 					"fontsize" : 11.0,
 					"hint" : "Creating and maintaining re:mix has required - and still does - a considerable amount of time and effort.  If you like it and find it useful, please consider contributing to support its development. Your contribution will be highly appreciated!",
@@ -36155,10 +36148,10 @@
 					}
 ,
 					"text" : "contribute",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "contribute",
-					"textoncolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
-					"textovercolor" : [ 0.549019607843137, 0.549019607843137, 0.549019607843137, 1.0 ],
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textovercolor" : [ 0.411764705882353, 0.411764705882353, 0.411764705882353, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -36213,7 +36206,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 220.0, 250.0, 748.0, 753.0 ],
+						"rect" : [ 565.0, 359.0, 748.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -36289,19 +36282,6 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 242.5, 227.0, 43.0, 22.0 ],
 									"text" : "del 10"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 411.0, 41.0, 94.0, 22.0 ],
-									"text" : "s ---[remix]track"
 								}
 
 							}
@@ -36744,7 +36724,7 @@
 					"focusbordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
 					"fontname" : "Ableton Sans ",
 					"fontsize" : 11.0,
-					"hltcolor" : [ 0.549019607843137, 0.549019607843137, 0.549019607843137, 1.0 ],
+					"hltcolor" : [ 0.411764705882353, 0.411764705882353, 0.411764705882353, 1.0 ],
 					"id" : "obj-242",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -36753,7 +36733,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 663.0, 302.024292000000003, 40.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.693909101837107, 216.5, 50.0, 17.0 ],
+					"presentation_rect" : [ 387.693909000000019, 216.5, 51.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -36806,8 +36786,7 @@
 
 					}
 ,
-					"text" : "autofocus -",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "autofocus -"
 				}
 
 			}
@@ -38900,8 +38879,7 @@
 
 					}
 ,
-					"text" : "mix",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "mix"
 				}
 
 			}
@@ -40430,8 +40408,7 @@
 
 					}
 ,
-					"text" : "/// developed by nick ozerov /// @elquinto",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "/// developed by nick ozerov /// @elquinto"
 				}
 
 			}
@@ -40455,9 +40432,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1001.726684999999975, 435.962891000000013, 86.0, 22.0 ],
+					"patching_rect" : [ 1065.0, 417.962891000000013, 86.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 782.0, 280.5, 137.0, 22.0 ],
+					"presentation_rect" : [ 324.693909101837107, 236.75, 119.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -40465,7 +40442,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "immediate[1]"
 				}
 
